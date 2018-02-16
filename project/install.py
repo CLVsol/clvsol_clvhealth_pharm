@@ -491,6 +491,9 @@ def install():
     group_names = []
     install_update_module('clv_base_pharm', update, group_names)
 
+    group_names = []
+    install_update_module('clv_file_system_pharm', update, group_names)
+
 
 def secondsToStr(t):
 
