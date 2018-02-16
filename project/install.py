@@ -496,6 +496,13 @@ def install():
     #
     # ################################################################################################################
 
+    group_names = [
+        'User (CMED Medicament)',
+        'Manager (CMED Medicament)',
+        'Super Manager (CMED Medicament)',
+    ]
+    install_update_module('clv_cmed_medicament', update, group_names)
+
     # ################################################################################################################
     #
     # CLVsol Odoo Addons - Pharm customizations
