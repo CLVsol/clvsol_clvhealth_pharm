@@ -511,6 +511,9 @@ def install():
     group_names = []
     install_update_module('clv_global_tag_pharm', update, group_names)
 
+    group_names = []
+    install_update_module('clv_medicament_pharm', update, group_names)
+
 
 def secondsToStr(t):
 
